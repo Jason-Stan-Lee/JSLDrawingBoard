@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JSLDrawingBoard_Example' do
+  pod 'JSLDrawingBoard', :path => '../'
+
+  target 'JSLDrawingBoard_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

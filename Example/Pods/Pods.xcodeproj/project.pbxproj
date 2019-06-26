@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		59F35A153CF90AAD956B36345E064E7F /* JSLDrawingBoard */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5A61E42BCB473C1DAB7AD6588F3AA5CD /* Build configuration list for PBXAggregateTarget "JSLDrawingBoard" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = JSLDrawingBoard;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		383173D27668E5721B88B4D2176E64B4 /* Pods-JSLDrawingBoard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C899A304D7BF6290C074F8CDB1C435CB /* Pods-JSLDrawingBoard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7081B94E0BB8A0317365882D85912636 /* Pods-JSLDrawingBoard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98AC5DF3E74D05ECA0F2B608918DF555 /* Pods-JSLDrawingBoard_Example-dummy.m */; };
+		74E0537385189C1CAEF694BE3B8477F3 /* Pods-JSLDrawingBoard_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF491B995166C0F5EEAE15767B4217A7 /* Pods-JSLDrawingBoard_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F29B049434938734A0DA8AADC4ED218 /* Pods-JSLDrawingBoard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCE200C86FA5CF14704F892E549B8BD /* Pods-JSLDrawingBoard_Tests-dummy.m */; };
+		D859CD15BD136B4FCD73BFC2E49256B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		FE768735307E31CB55E82A6147F04CBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		044E88523857D25FA15568A53FBD89FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59F35A153CF90AAD956B36345E064E7F;
+			remoteInfo = JSLDrawingBoard;
+		};
+		0E4632B00918D2F73048841F7CFD9304 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E663660324038DD1CD60749C1D3E4A41;
+			remoteInfo = "Pods-JSLDrawingBoard_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		048C8E2E16F67C310E55321B8782C413 /* Pods_JSLDrawingBoard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSLDrawingBoard_Tests.framework; path = "Pods-JSLDrawingBoard_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EC80014553330E0B509975067D01625 /* Pods-JSLDrawingBoard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSLDrawingBoard_Example.release.xcconfig"; sourceTree = "<group>"; };
+		16DAADD695A01DC6B278DC0A6EC3AD2C /* Pods-JSLDrawingBoard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSLDrawingBoard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		23A370B0866596C97A047D2C6C9D4711 /* Pods-JSLDrawingBoard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSLDrawingBoard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4E840D289E640390A998807B9DCEEC8F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		56F6DE780CB5610824D30CF4166807A8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5AEC2D428C974558A09D464C058BAC3F /* Pods-JSLDrawingBoard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JSLDrawingBoard_Example.modulemap"; sourceTree = "<group>"; };
+		656D5E1A243935E779AA01FEAA1A07D1 /* Pods-JSLDrawingBoard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSLDrawingBoard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7435226D4E95C94C90C0C464C5C549EB /* Pods-JSLDrawingBoard_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSLDrawingBoard_Example-Info.plist"; sourceTree = "<group>"; };
+		95663C684066460DE2DB582448E5D6B0 /* Pods-JSLDrawingBoard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSLDrawingBoard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		98AC5DF3E74D05ECA0F2B608918DF555 /* Pods-JSLDrawingBoard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSLDrawingBoard_Example-dummy.m"; sourceTree = "<group>"; };
+		9B5445AE0556951F661802963CF58320 /* Pods-JSLDrawingBoard_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSLDrawingBoard_Tests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A000B0EDA1B0B88942528B205F0D5BE6 /* Pods-JSLDrawingBoard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSLDrawingBoard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A55AC16D0C43DAE1DF6EFFD90CC308F9 /* Pods-JSLDrawingBoard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JSLDrawingBoard_Tests.modulemap"; sourceTree = "<group>"; };
+		ACCE200C86FA5CF14704F892E549B8BD /* Pods-JSLDrawingBoard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSLDrawingBoard_Tests-dummy.m"; sourceTree = "<group>"; };
+		BF491B995166C0F5EEAE15767B4217A7 /* Pods-JSLDrawingBoard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSLDrawingBoard_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C2ECEAE41C01C64ADAD86EDD1CCC23E6 /* JSLDrawingBoard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSLDrawingBoard.xcconfig; sourceTree = "<group>"; };
+		C899A304D7BF6290C074F8CDB1C435CB /* Pods-JSLDrawingBoard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSLDrawingBoard_Example-umbrella.h"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CECB642BA7EEF277562562B2E6280B52 /* Pods-JSLDrawingBoard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSLDrawingBoard_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D1BE01F14BF36B2D43749DC96D2D7B55 /* JSLDrawingBoard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JSLDrawingBoard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E57B1310C0DCA75ABFC015C1BC4BF69F /* Pods_JSLDrawingBoard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSLDrawingBoard_Example.framework; path = "Pods-JSLDrawingBoard_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF74CFB538333EBB327B5B88017D0100 /* Pods-JSLDrawingBoard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSLDrawingBoard_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC39BEA45F0E828025F8BDDB7B578571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D859CD15BD136B4FCD73BFC2E49256B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7ACB8E8499468D4216F5C3334113C2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE768735307E31CB55E82A6147F04CBA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		200BB4A61A7FE2292C19D3BC906D8627 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4E3C6AC097AE18516AE5FC6669F833F /* Pods-JSLDrawingBoard_Example */,
+				4A31377677C3FCE9BEBE92FDD3FDFBC3 /* Pods-JSLDrawingBoard_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2E6E7DB8203A20A2488321880D03321C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2ECEAE41C01C64ADAD86EDD1CCC23E6 /* JSLDrawingBoard.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JSLDrawingBoard";
+			sourceTree = "<group>";
+		};
+		35899BC9AB22F4FF1E7A3164E950A9FD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE8B7C7141D67C39373B30A2E8D14066 /* JSLDrawingBoard */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		461808C3EBC44E373AA65C7D71D44361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E57B1310C0DCA75ABFC015C1BC4BF69F /* Pods_JSLDrawingBoard_Example.framework */,
+				048C8E2E16F67C310E55321B8782C413 /* Pods_JSLDrawingBoard_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A31377677C3FCE9BEBE92FDD3FDFBC3 /* Pods-JSLDrawingBoard_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A55AC16D0C43DAE1DF6EFFD90CC308F9 /* Pods-JSLDrawingBoard_Tests.modulemap */,
+				A000B0EDA1B0B88942528B205F0D5BE6 /* Pods-JSLDrawingBoard_Tests-acknowledgements.markdown */,
+				656D5E1A243935E779AA01FEAA1A07D1 /* Pods-JSLDrawingBoard_Tests-acknowledgements.plist */,
+				ACCE200C86FA5CF14704F892E549B8BD /* Pods-JSLDrawingBoard_Tests-dummy.m */,
+				9B5445AE0556951F661802963CF58320 /* Pods-JSLDrawingBoard_Tests-Info.plist */,
+				BF491B995166C0F5EEAE15767B4217A7 /* Pods-JSLDrawingBoard_Tests-umbrella.h */,
+				95663C684066460DE2DB582448E5D6B0 /* Pods-JSLDrawingBoard_Tests.debug.xcconfig */,
+				EF74CFB538333EBB327B5B88017D0100 /* Pods-JSLDrawingBoard_Tests.release.xcconfig */,
+			);
+			name = "Pods-JSLDrawingBoard_Tests";
+			path = "Target Support Files/Pods-JSLDrawingBoard_Tests";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B4E3C6AC097AE18516AE5FC6669F833F /* Pods-JSLDrawingBoard_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5AEC2D428C974558A09D464C058BAC3F /* Pods-JSLDrawingBoard_Example.modulemap */,
+				16DAADD695A01DC6B278DC0A6EC3AD2C /* Pods-JSLDrawingBoard_Example-acknowledgements.markdown */,
+				23A370B0866596C97A047D2C6C9D4711 /* Pods-JSLDrawingBoard_Example-acknowledgements.plist */,
+				98AC5DF3E74D05ECA0F2B608918DF555 /* Pods-JSLDrawingBoard_Example-dummy.m */,
+				7435226D4E95C94C90C0C464C5C549EB /* Pods-JSLDrawingBoard_Example-Info.plist */,
+				C899A304D7BF6290C074F8CDB1C435CB /* Pods-JSLDrawingBoard_Example-umbrella.h */,
+				CECB642BA7EEF277562562B2E6280B52 /* Pods-JSLDrawingBoard_Example.debug.xcconfig */,
+				0EC80014553330E0B509975067D01625 /* Pods-JSLDrawingBoard_Example.release.xcconfig */,
+			);
+			name = "Pods-JSLDrawingBoard_Example";
+			path = "Target Support Files/Pods-JSLDrawingBoard_Example";
+			sourceTree = "<group>";
+		};
+		C2DD21B06782388C2DC6B636410DC512 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D1BE01F14BF36B2D43749DC96D2D7B55 /* JSLDrawingBoard.podspec */,
+				56F6DE780CB5610824D30CF4166807A8 /* LICENSE */,
+				4E840D289E640390A998807B9DCEEC8F /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CE8B7C7141D67C39373B30A2E8D14066 /* JSLDrawingBoard */ = {
+			isa = PBXGroup;
+			children = (
+				C2DD21B06782388C2DC6B636410DC512 /* Pod */,
+				2E6E7DB8203A20A2488321880D03321C /* Support Files */,
+			);
+			name = JSLDrawingBoard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				35899BC9AB22F4FF1E7A3164E950A9FD /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				461808C3EBC44E373AA65C7D71D44361 /* Products */,
+				200BB4A61A7FE2292C19D3BC906D8627 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1328D1ACC2CD1DBC733069928779A732 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E0537385189C1CAEF694BE3B8477F3 /* Pods-JSLDrawingBoard_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D86C91AC7DE2ADEAC6D37C6DC99088F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383173D27668E5721B88B4D2176E64B4 /* Pods-JSLDrawingBoard_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		252D5171344A2E63E02B8CE4A9D80E96 /* Pods-JSLDrawingBoard_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DFBF2AA8CAF94DDF3270C7D87AD4518 /* Build configuration list for PBXNativeTarget "Pods-JSLDrawingBoard_Tests" */;
+			buildPhases = (
+				1328D1ACC2CD1DBC733069928779A732 /* Headers */,
+				6FF580DBFB05762256C7D5E3DBEA3423 /* Sources */,
+				CC39BEA45F0E828025F8BDDB7B578571 /* Frameworks */,
+				2B9404A4F855B08C717238DBDEF279DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C2D37886F6E2AB0313D76AAC6A9D811 /* PBXTargetDependency */,
+			);
+			name = "Pods-JSLDrawingBoard_Tests";
+			productName = "Pods-JSLDrawingBoard_Tests";
+			productReference = 048C8E2E16F67C310E55321B8782C413 /* Pods_JSLDrawingBoard_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E663660324038DD1CD60749C1D3E4A41 /* Pods-JSLDrawingBoard_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A97B9A438765E901F3377AA9BBC2CCC /* Build configuration list for PBXNativeTarget "Pods-JSLDrawingBoard_Example" */;
+			buildPhases = (
+				9D86C91AC7DE2ADEAC6D37C6DC99088F /* Headers */,
+				BF5C867F4A8286751746B0B43E30A369 /* Sources */,
+				E7ACB8E8499468D4216F5C3334113C2F /* Frameworks */,
+				E765B4EF8A9D3C54E285B321031C4E05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46FF3183767E8EF2279734DE22907976 /* PBXTargetDependency */,
+			);
+			name = "Pods-JSLDrawingBoard_Example";
+			productName = "Pods-JSLDrawingBoard_Example";
+			productReference = E57B1310C0DCA75ABFC015C1BC4BF69F /* Pods_JSLDrawingBoard_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 461808C3EBC44E373AA65C7D71D44361 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59F35A153CF90AAD956B36345E064E7F /* JSLDrawingBoard */,
+				E663660324038DD1CD60749C1D3E4A41 /* Pods-JSLDrawingBoard_Example */,
+				252D5171344A2E63E02B8CE4A9D80E96 /* Pods-JSLDrawingBoard_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B9404A4F855B08C717238DBDEF279DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E765B4EF8A9D3C54E285B321031C4E05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FF580DBFB05762256C7D5E3DBEA3423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F29B049434938734A0DA8AADC4ED218 /* Pods-JSLDrawingBoard_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5C867F4A8286751746B0B43E30A369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7081B94E0BB8A0317365882D85912636 /* Pods-JSLDrawingBoard_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46FF3183767E8EF2279734DE22907976 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSLDrawingBoard;
+			target = 59F35A153CF90AAD956B36345E064E7F /* JSLDrawingBoard */;
+			targetProxy = 044E88523857D25FA15568A53FBD89FA /* PBXContainerItemProxy */;
+		};
+		9C2D37886F6E2AB0313D76AAC6A9D811 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JSLDrawingBoard_Example";
+			target = E663660324038DD1CD60749C1D3E4A41 /* Pods-JSLDrawingBoard_Example */;
+			targetProxy = 0E4632B00918D2F73048841F7CFD9304 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E7E0FA39FAA2D687EE148BD9C2BEB1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EC80014553330E0B509975067D01625 /* Pods-JSLDrawingBoard_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSLDrawingBoard_Example/Pods-JSLDrawingBoard_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSLDrawingBoard_Example/Pods-JSLDrawingBoard_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1F7824744CB27C705BF32B7ABE93AF71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2ECEAE41C01C64ADAD86EDD1CCC23E6 /* JSLDrawingBoard.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4756CA2F81AD609E69329413B331B1A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF74CFB538333EBB327B5B88017D0100 /* Pods-JSLDrawingBoard_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSLDrawingBoard_Tests/Pods-JSLDrawingBoard_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSLDrawingBoard_Tests/Pods-JSLDrawingBoard_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6116E0717F303AF6A7BCECA3F46C9A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CECB642BA7EEF277562562B2E6280B52 /* Pods-JSLDrawingBoard_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSLDrawingBoard_Example/Pods-JSLDrawingBoard_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSLDrawingBoard_Example/Pods-JSLDrawingBoard_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BBE12AA679784E07D773A7A0B47D4D3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2ECEAE41C01C64ADAD86EDD1CCC23E6 /* JSLDrawingBoard.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C07C49BAF1A43E7B8B1ADF65D1A909B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95663C684066460DE2DB582448E5D6B0 /* Pods-JSLDrawingBoard_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSLDrawingBoard_Tests/Pods-JSLDrawingBoard_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSLDrawingBoard_Tests/Pods-JSLDrawingBoard_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
+				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A61E42BCB473C1DAB7AD6588F3AA5CD /* Build configuration list for PBXAggregateTarget "JSLDrawingBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F7824744CB27C705BF32B7ABE93AF71 /* Debug */,
+				BBE12AA679784E07D773A7A0B47D4D3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DFBF2AA8CAF94DDF3270C7D87AD4518 /* Build configuration list for PBXNativeTarget "Pods-JSLDrawingBoard_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07C49BAF1A43E7B8B1ADF65D1A909B3 /* Debug */,
+				4756CA2F81AD609E69329413B331B1A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A97B9A438765E901F3377AA9BBC2CCC /* Build configuration list for PBXNativeTarget "Pods-JSLDrawingBoard_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6116E0717F303AF6A7BCECA3F46C9A4B /* Debug */,
+				0E7E0FA39FAA2D687EE148BD9C2BEB1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
