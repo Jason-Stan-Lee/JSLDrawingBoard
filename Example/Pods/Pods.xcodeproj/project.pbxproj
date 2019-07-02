@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		03797313A1EEA4175D3BE446B37B0B11 /* Pods-JSLDrawingBoard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSLDrawingBoard_Example-umbrella.h"; sourceTree = "<group>"; };
 		066139C3A3BFC6F4C6001AE535DA38F6 /* Pods-JSLDrawingBoard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSLDrawingBoard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1BCFB2AD539AC7877D154E7FCF532CE6 /* Pods_JSLDrawingBoard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSLDrawingBoard_Tests.framework; path = "Pods-JSLDrawingBoard_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BCFB2AD539AC7877D154E7FCF532CE6 /* Pods_JSLDrawingBoard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSLDrawingBoard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C7B5D7E49DE53018498EBCC02C24C5D /* Pods-JSLDrawingBoard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSLDrawingBoard_Example-frameworks.sh"; sourceTree = "<group>"; };
 		397E261AEF2DE6747FC145E32525A233 /* Pods-JSLDrawingBoard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSLDrawingBoard_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3C7881114F2D8066A7D929F5E6128FAB /* Pods-JSLDrawingBoard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JSLDrawingBoard_Example.modulemap"; sourceTree = "<group>"; };
@@ -47,25 +47,25 @@
 		42C29C8595DDC2B9D76AFBC2FECAB3D4 /* Pods-JSLDrawingBoard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSLDrawingBoard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4B42E1A5240DADF5C4C831213DABB99A /* Pods-JSLDrawingBoard_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSLDrawingBoard_Tests-Info.plist"; sourceTree = "<group>"; };
 		5093AB2C507DD7C3B627A9B15B8D2568 /* Pods-JSLDrawingBoard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSLDrawingBoard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5497E50D3E2AF9570BEC227CF748A002 /* Pods_JSLDrawingBoard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSLDrawingBoard_Example.framework; path = "Pods-JSLDrawingBoard_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		71A73D043E664AB40EBBCC7E9E4DE7EC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5497E50D3E2AF9570BEC227CF748A002 /* Pods_JSLDrawingBoard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSLDrawingBoard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71A73D043E664AB40EBBCC7E9E4DE7EC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		79EA9E47314315FA05F328E850448D60 /* Pods-JSLDrawingBoard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JSLDrawingBoard_Tests.modulemap"; sourceTree = "<group>"; };
 		8A5485BAB901CAF6842CB583DF3B7E96 /* Pods-JSLDrawingBoard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSLDrawingBoard_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8B3A9EEC81A6E51248E85EEDE22100C5 /* JSLDrawingBoard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSLDrawingBoard-prefix.pch"; sourceTree = "<group>"; };
 		90C501CA438FAC8F190B0DA08D2F51A9 /* Pods-JSLDrawingBoard_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSLDrawingBoard_Example-Info.plist"; sourceTree = "<group>"; };
 		93EA6983F1F0FFEA2D4D6DE26956F6D2 /* Pods-JSLDrawingBoard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSLDrawingBoard_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1A7F88D242CDA576BEF3787DAE520E9 /* Pods-JSLDrawingBoard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSLDrawingBoard_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A92764F83E202F18E75D36F07CC25A7D /* JSLDrawingBoard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSLDrawingBoard-dummy.m"; sourceTree = "<group>"; };
-		AC6F58B3FBB9D3F9776DF9DE8990F300 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AC6F58B3FBB9D3F9776DF9DE8990F300 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B0A8C0F04DCEECF76169206D17FCFA59 /* Pods-JSLDrawingBoard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSLDrawingBoard_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BAC2DF0BAC0F921DA49B4544DD32B4F5 /* JSLDrawingBoard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSLDrawingBoard-umbrella.h"; sourceTree = "<group>"; };
 		BCAFFA691B1CB38951EB5AAEA5678435 /* Pods-JSLDrawingBoard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSLDrawingBoard_Example-dummy.m"; sourceTree = "<group>"; };
 		C3FAF971F7D7F16E0F3ECD9DD287B75F /* JSLDrawingBoard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JSLDrawingBoard.modulemap; sourceTree = "<group>"; };
 		C6AEB139EF794391FFB5F41CCEA33879 /* JSLDrawingBoard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSLDrawingBoard.xcconfig; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D57E4BA347DB1DDA33278D43C7DF6E30 /* JSLDrawingBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSLDrawingBoard.framework; path = JSLDrawingBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E357535FBA912910584BE055C3FE3E77 /* JSLDrawingBoard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JSLDrawingBoard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D57E4BA347DB1DDA33278D43C7DF6E30 /* JSLDrawingBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSLDrawingBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E357535FBA912910584BE055C3FE3E77 /* JSLDrawingBoard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JSLDrawingBoard.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		E4998F8ABEDF284894663381C60B9B78 /* Pods-JSLDrawingBoard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSLDrawingBoard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		ECCB0009908976D410F98844A533EFD0 /* DrawingBoard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DrawingBoard.swift; path = JSLDrawingBoard/Classes/DrawingBoard.swift; sourceTree = "<group>"; };
 		F5271236223B8F08D5B2C3FCC34AC45D /* Pods-JSLDrawingBoard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSLDrawingBoard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -321,6 +321,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -717,8 +718,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
