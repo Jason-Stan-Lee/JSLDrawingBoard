@@ -1,0 +1,16 @@
+PODS:
+  - JSLDrawingBoard (0.1.0)
+
+DEPENDENCIES:
+  - JSLDrawingBoard (from `../`)
+
+EXTERNAL SOURCES:
+  JSLDrawingBoard:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JSLDrawingBoard: ccc8cf7efc82308c42491e5a52fb98cbbba4b3eb
+
+PODFILE CHECKSUM: 6e3f28e4d24d85287d69e97be0436c771f343fde
+
+COCOAPODS: 1.6.0

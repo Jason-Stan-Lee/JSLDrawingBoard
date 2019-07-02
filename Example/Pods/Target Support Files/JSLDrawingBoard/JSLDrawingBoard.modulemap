@@ -1,0 +1,6 @@
+framework module JSLDrawingBoard {
+  umbrella header "JSLDrawingBoard-umbrella.h"
+
+  export *
+  module * { export * }
+}

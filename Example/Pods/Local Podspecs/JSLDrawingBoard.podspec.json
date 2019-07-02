@@ -1,0 +1,22 @@
+{
+  "name": "JSLDrawingBoard",
+  "version": "0.1.0",
+  "summary": "A short description of JSLDrawingBoard.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jason_lee_92@yahoo.com/JSLDrawingBoard",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "JasonLee": "jason_lee_92@yahoo.com"
+  },
+  "source": {
+    "git": "https://github.com/jason_lee_92@yahoo.com/JSLDrawingBoard.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JSLDrawingBoard/Classes/**/*"
+}
