@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     private lazy var backButton: UIButton = {
         let button = UIButton(type: .custom)
         button.setTitle("Back", for: .normal)
+        button.backgroundColor = .blue
         button.addTarget(self, action: #selector(backAction), for: .touchUpInside)
         return button
     }()
@@ -22,6 +23,7 @@ class ViewController: UIViewController {
     private lazy var clearButton: UIButton = {
         let button = UIButton(type: .custom)
         button.setTitle("Clear", for: .normal)
+        button.backgroundColor = .red
         button.addTarget(self, action: #selector(clearAction), for: .touchUpInside)
         return button
     }()
@@ -29,15 +31,25 @@ class ViewController: UIViewController {
     private lazy var colorButton: UIButton = {
         let button = UIButton(type: .custom)
         button.setTitle("Color", for: .normal)
+        button.backgroundColor = .black
         button.addTarget(self, action: #selector(changeColor), for: .touchUpInside)
         return button
     }()
 
     private lazy var strokeWidth: UIButton = {
         let button = UIButton(type: .custom)
-        button.setTitle("Width", for: .normal)
-        button.addTarget(self, action: #selector(changeStrokeWidth), for: .touchUpInside)
+        button.setTitle("StrokeW", for: .normal)
+        button.backgroundColor = .lightGray
         return button
+    }()
+
+    private lazy var strokeWidthSlider: UISlider = {
+        let slider = UISlider()
+        slider.maximumValue = 10
+        slider.minimumValue = 0.5
+        slider.addTarget(self, action: #selector(changeStrokeWidth(_:)), for: .valueChanged)
+        slider.setValue(3, animated: false)
+        return slider
     }()
 
     override func viewDidLoad() {
@@ -46,6 +58,7 @@ class ViewController: UIViewController {
         buttons().forEach { button in
             view.addSubview(button)
         }
+        view.addSubview(strokeWidthSlider)
     }
 
     override func viewDidLayoutSubviews() {
@@ -55,9 +68,10 @@ class ViewController: UIViewController {
         let buttonH: CGFloat = 40
         let buttonW: CGFloat = bounds.width / CGFloat(buttons().count)
         buttons().enumerated().forEach { i, button in
-            button.backgroundColor = randomColor()
             button.frame = CGRect(x: buttonW * CGFloat(i), y: 50, width: buttonW, height: buttonH)
         }
+
+        strokeWidthSlider.frame = CGRect(x: 15, y: 100, width: bounds.width - 30, height: 40)
     }
 
     @objc
@@ -72,12 +86,16 @@ class ViewController: UIViewController {
 
     @objc
     func changeColor() {
-        board.brushColor = randomColor()
+        let color = randomColor()
+        board.brushColor = color
+        colorButton.backgroundColor = color
     }
 
     @objc
-    func changeStrokeWidth() {
-        board.brushWidth = .random(in: 1...10)
+    func changeStrokeWidth(_ slider: UISlider) {
+        let width = String(format: "%.2f", slider.value)
+        strokeWidth.setTitle("w:\(width)", for: .normal)
+        board.brushWidth = CGFloat(slider.value)
     }
 
     override func didReceiveMemoryWarning() {

@@ -16,7 +16,7 @@ public class DrawingBoard: UIView {
     /// 笔划信息
     private var strokesInfos = [StrokeInfo]()
     /// 画笔颜色
-    @objc public var brushColor = UIColor.red
+    @objc public var brushColor = UIColor.black
     /// 画笔宽度
     @objc public var brushWidth: CGFloat = 3
 
