@@ -16,9 +16,9 @@ public class DrawingBoard: UIView {
     /// 笔划信息
     private var strokesInfos = [StrokeInfo]()
     /// 画笔颜色
-    @objc public var brushColor = UIColor.black
+    @objc public var brushColor = StrokeInfo.defaultColor
     /// 画笔宽度
-    @objc public var brushWidth: CGFloat = 3
+    @objc public var brushWidth: CGFloat = StrokeInfo.defaultWidth
 
     //----------------------------------------------------------
     // MARK: Life Cycle
@@ -142,12 +142,15 @@ public class DrawingBoard: UIView {
 /// 笔划信息
 fileprivate class StrokeInfo: NSObject {
 
+    static let defaultWidth: CGFloat = 3
+    static let defaultColor = UIColor.black
+
     /// 线条所包含的点
     var points = [NSValue]()
     /// 线条颜色
-    var width: CGFloat = 3
+    var width: CGFloat = defaultWidth
     /// 线条颜色
-    var color = UIColor.red
+    var color = defaultColor
 
 }
 
